@@ -1,0 +1,118 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.offer {
+    width: 100%;
+    margin: 10px auto;
+    background-color: white;
+    color: rgb(223, 147, 166);
+    border: 1px solid rgb(223, 147, 166);
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offer-title {
+    margin: 4px 0;
+}
+
+
+.container{
+    height: 100vh;
+    width: 100%;
+    /* background-image: url(image.png); */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.navbar{
+    width: 88%;
+    margin: auto;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 140px;
+    cursor: pointer;
+
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+   
+
+}
+.navbar ul li a{
+  
+    font-weight: bold;
+    text-decoration: none;
+    color: #e3acac;
+    font-size: 15px;
+
+}
+.content{
+    width: 100%;position: absolute;top: 0%;
+   
+}
+.left-col{
+  margin-left: 2%;
+
+}
+.left-col h1{
+    font-family: 'spicy rice';
+    font-size: 70px;
+    left: 10px;
+    color: rgb(223, 147, 166);
+    line-height: 110px;
+    float: left;
+}
+.right-col{
+    
+    float: right;
+    margin-right: 6%;
+    display: flex;
+    align-items: center;
+    padding: 10px 5px;
+    /* border: 2px solid wheat; */
+    border-radius: 50px;
+
+}
+.right-col p{
+   
+    padding: 10px;
+    font-size: 18px;
+    color: rgb(245, 243, 243);
+    font-weight: 400;
+    margin-right: 6px;
+}
+
+#icon{
+    top: 10%;
+    width: 80px;
+    cursor: pointer;
+    
+}
+iframe{
+    background-size: cover;
+}
+/* 
+.card{
+    border: 1px solid lightgrey;
+    border-radius: 20px;
+    width: 300px;
+    padding: 20px;
+    margin-right: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+} */
+

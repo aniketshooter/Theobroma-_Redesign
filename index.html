@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theobroma - Finest Donuts</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Inter:wght@500&family=Montserrat:wght@200;500;600&family=Noto+Sans+KR:wght@900&family=Poppins:wght@300;400;500;600;700&family=Spicy+Rice&display=swap" rel="stylesheet"></head>
+<body>
+    <div class="offer">
+        <h3 class="offer-title">Get 20% OFF! Use code MATCH20. *T&C apply</h3>
+       
+    </div>
+    <div class="navbar">
+        <div class="left-col">    
+            <h1> Theobroma </h1>
+        </div>
+        <ul>
+           <li><a href="#"> HOME</a>
+           <li><a href="#"> ABOUT US</a></li>
+           <li><a href="#"> CUSTOM ORDERS</a></li>
+           <li><a href="#"> PRODUCTS</a></li>
+           <li><a href="#"> CONTACT US</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        
+        <iframe src='https://my.spline.design/componentdonutscopy-10af731e94ae92b6753e8c33580d4d23/' frameborder='0' width='100%' height='100%'></iframe>
+        
+        <div class="content"> 
+            <div class="right-col">
+                <p> Play Music </p>
+                <img src="play.png" id="icon">
+                </div>
+        </div>
+    </div>
+ 
+   <audio src="audio.mp3" id="audio"></audio>
+   <script>
+    var audio = document.getElementById("audio");
+    var icon = document.getElementById("icon");
+
+    icon.onclick = function(){
+        if(audio.paused){
+            audio.play();
+            icon.src ="pause.png";
+        }
+    else{
+        audio.pause();
+            icon.src ="play.png";
+
+    }}
+   </script>
+
+</body>
+</html>
